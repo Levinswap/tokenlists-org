@@ -70,7 +70,7 @@ export default function Card({ id, list, name }) {
     <StyledCard to={`/token-list?url=${id}`} className="card">
       <img
         alt="icon"
-        src={logoURL ?? 'https://raw.githubusercontent.com/feathericons/feather/master/icons/help-circle.svg'}
+        src={logoURL ?? 'https://raw.githubusercontent.com/Levinswap/default-token-list/master/src/assets/xdai/0x64e8a115ec254a6a5949dbc5801a8ccf3ae4f72f/logo.png'}
         onError={(e) => {
           e.target.className = 'replace'
           e.target.src = 'https://raw.githubusercontent.com/feathericons/feather/master/icons/help-circle.svg'

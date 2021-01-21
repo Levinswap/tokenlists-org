@@ -71,12 +71,12 @@ export default function Header() {
     <Hero>
       <span style={{ marginBottom: '1rem' }}>
         Maintained by {' '}
-        <a href="https://honeyswap.org/" className="honeyswap">
-          Honeyswap
+        <a href="https://levinswap.org/" className="honeyswap">
+          Levinswap
         </a>{' '}
       </span>
 
-      <p className="title">An xDai token list standard.</p>
+      <p className="title">xDai token list standard.</p>
 
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
         Token Lists is a community-led initiative to improve discoverability, reputation and trust in ERC20 token lists
@@ -88,11 +88,11 @@ export default function Header() {
       <HoverLink
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/1Hive/token-lists#authoring-token-lists"
+        href="https://github.com/Levinswap/tokenlists-org"
       >
         {'->'} Make your own
       </HoverLink>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="http://forum.1hive.org/">
+      <HoverLink target="_blank" rel="noopener noreferrer" href="http://forum.levinswap.org/">
         {'->'} Community
       </HoverLink>
     </Hero>

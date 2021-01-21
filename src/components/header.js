@@ -70,7 +70,7 @@ export default function Header({ back }) {
       </Link>
 
       <Nav>
-        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://forum.1hive.org/">
+        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://forum.levinswap.org/">
           Community
         </a>
         <a
@@ -85,7 +85,7 @@ export default function Header({ back }) {
           className="hide-small"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/1Hive/token-lists#authoring-token-lists"
+          href="hhttps://github.com/Levinswap/tokenlists-org"
         >
           Make a list
         </a>
@@ -94,7 +94,7 @@ export default function Header({ back }) {
           className="button"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/1Hive/token-lists"
+          href="https://github.com/Levinswap/token-lists"
         >
           <img
             style={{

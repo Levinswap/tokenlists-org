@@ -27,10 +27,10 @@ export default function Footer() {
     <StyledFooter>
       <span>Maintained by Honeswap</span>
       <Nav>
-        <a href="https://1hive.gitbook.io/1hive/projects/honeyswap">Docs</a>
-        <a href="https://github.com/1Hive">GitHub</a>
-        <a href="https://discord.gg/fZCCdAZAAc">Discord</a>
-        <a href="https://app.honeyswap.org">App</a>
+        <a href="https://wiki.levinswap.org">Docs</a>
+        <a href="https://github.com/Levinswap">GitHub</a>
+        <a href="https://discord.gg/vYHCcJQFPW">Discord</a>
+        <a href="https://app.levinswap.org">App</a>
       </Nav>
     </StyledFooter>
   )
