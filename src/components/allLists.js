@@ -127,8 +127,8 @@ export default function AllLists() {
             results.length === 0
               ? 'None found!'
               : results.map((result) => (
-                  <Card key={result.id} id={result.id} list={lists[result.id]?.list} name={result.name} />
-                ))
+                <Card key={result.id} id={result.id} list={lists[result.id]?.list} name={result.name} />
+              ))
           }
         />
       </CardWrapper>
@@ -152,7 +152,7 @@ export default function AllLists() {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/1Hive/tokenlists-org/issues/new?assignees=&labels=list-request&template=add-list-request.md&title=Request%3A+add+%7BList+name%7D"
+        href="https://github.com/Levinswap/tokenlists-org/issues/new?assignees=&labels=list-request&template=add-list-request.md&title=Request%3A+add+%7BList+name%7D"
       >
         <AddButton>+ add a list</AddButton>
       </a>
