@@ -59,9 +59,17 @@ const AddButton = styled.button`
   padding: 1rem;
   background-color: transparent;
   border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
 
   a {
     color: #1f1f1f;
+  }
+
+  :hover {
+    color: white;
+    background-color: #463e53;
+    border: 0.75px solid #463e53;
   }
 `
 

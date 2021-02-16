@@ -16,7 +16,7 @@ const StyledCard = styled(Link)`
   text-decoration: none;
   color: #0f0f0f;
   border: 0.75px solid #131313;
-  box-shadow: -8px 8px 0px #d6fdff;
+  box-shadow: -8px 8px 0px #fae5ec;
 
   @media screen and (max-width: 960px) {
     max-width: initial;
@@ -26,7 +26,7 @@ const StyledCard = styled(Link)`
     box-sizing: border-box;
   }
   :hover {
-    box-shadow: -12px 12px 0px #d6fdff;
+    box-shadow: -12px 12px 0px #fae5ec;
     translate: 2px -2px;
   }
 
@@ -70,7 +70,7 @@ export default function Card({ id, list, name }) {
     <StyledCard to={`/token-list?url=${id}`} className="card">
       <img
         alt="icon"
-        src={logoURL ?? 'https://raw.githubusercontent.com/Levinswap/default-token-list/master/src/assets/xdai/0x64e8a115ec254a6a5949dbc5801a8ccf3ae4f72f/logo.png'}
+        src={logoURL ?? 'https://raw.githubusercontent.com/feathericons/feather/master/icons/help-circle.svg'}
         onError={(e) => {
           e.target.className = 'replace'
           e.target.src = 'https://raw.githubusercontent.com/feathericons/feather/master/icons/help-circle.svg'

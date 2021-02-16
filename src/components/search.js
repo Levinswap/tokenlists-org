@@ -17,6 +17,7 @@ const StyledSearch = styled.form`
     padding: 8px;
     padding-left: 2rem;
     width: 164px;
+    outline: none;
 
     border: 0.5px solid #838383;
     border-radius: 8px;

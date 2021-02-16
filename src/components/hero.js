@@ -40,8 +40,8 @@ const Hero = styled.section`
     font-family: 'MatterSQ-SemiBold';
   }
 
-  .honeyswap {
-    color: #ff007a;
+  .levinswap {
+    color: #a27395;
     font-family: 'MatterSQ-Regular';
   }
 
@@ -61,7 +61,7 @@ const HoverLink = styled.a`
   margin-top: 0.5rem;
   width: fit-content;
   :hover {
-    box-shadow: -6px 6px 0px #d6fdff;
+    box-shadow: -6px 6px 0px #fae5ec;
     translate: 1px -1px;
   }
 `
@@ -71,7 +71,7 @@ export default function Header() {
     <Hero>
       <span style={{ marginBottom: '1rem' }}>
         Maintained by {' '}
-        <a href="https://levinswap.org/" className="honeyswap">
+        <a href="https://levinswap.org/" className="levinswap">
           Levinswap
         </a>{' '}
       </span>
@@ -88,11 +88,11 @@ export default function Header() {
       <HoverLink
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/Levinswap/tokenlists-org"
+        href="https://github.com/Uniswap/token-lists"
       >
         {'->'} Make your own
       </HoverLink>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="http://forum.levinswap.org/">
+      <HoverLink target="_blank" rel="noopener noreferrer" href="https://discord.gg/F6pKMPNHE7">
         {'->'} Community
       </HoverLink>
     </Hero>

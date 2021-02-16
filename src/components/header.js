@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
-import logo from '../logo/color.png'
+import logo from '../assets/logo/logo.svg'
 
 const StyledHeader = styled.header`
   display: flex;
@@ -14,12 +14,12 @@ const StyledHeader = styled.header`
   top: 0;
   backdrop-filter: blur(20px);
   z-index: 999;
-  background-color: rgba(255, 255, 255, 0.01);
   border-bottom: 0.75px solid #13131320;
 
   a {
-    color: #0f0f0f;
+    color: #2a2e3a;
   }
+
   .title {
     font-size: 1.25rem;
     font-family: 'MatterSQ-SemiBold';
@@ -36,6 +36,7 @@ const Nav = styled.nav`
   align-items: center;
   gap: 1rem;
   width: fit-content;
+  margin-right: 16.9%;
 
   > * {
     margin-left: 1rem;
@@ -44,7 +45,7 @@ const Nav = styled.nav`
 
 const ButtonLink = styled.a`
   transition: box-shadow 0.25s ease, translate 0.25s ease;
-  background-color: #010101;
+  background-color: #463e53;
   border-radius: 8px;
   width: fit-content;
   display: flex;
@@ -54,7 +55,8 @@ const ButtonLink = styled.a`
   font-size: 14px;
   scale: 1;
   :hover {
-    box-shadow: -6px 6px 0px #d6fdff;
+    box-shadow: -4px 4px 0px rgba(162, 115, 149, 0.5);
+
     translate: 1px -1px;
   }
 `
@@ -62,16 +64,16 @@ const ButtonLink = styled.a`
 export default function Header({ back }) {
   return (
     <StyledHeader>
-      <Link style={{ display: 'flex', alignItems: 'center' }} to="/">
-        <img width={32} src={logo} alt="logo" />
-        <span className="title" style={{ marginLeft: '.5rem' }}>
+      <Link style={{ marginLeft: '17.2%', display: 'flex', alignItems: 'center' }} to="/">
+        <img width={22} src={logo} alt="logo" />
+        <span className="title" style={{ marginLeft: '0.8rem' }}>
           Token Lists
         </span>
       </Link>
 
       <Nav>
-        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="http://forum.levinswap.org/">
-          Community
+        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="https://discord.gg/F6pKMPNHE7">
+          Discord
         </a>
         <a
           target="_blank"
@@ -85,7 +87,7 @@ export default function Header({ back }) {
           className="hide-small"
           target="_blank"
           rel="noopener noreferrer"
-          href="hhttps://github.com/Levinswap/tokenlists-org"
+          href="https://github.com/Uniswap/token-lists"
         >
           Make a list
         </a>

@@ -175,7 +175,7 @@ export default function Tokens({ tokens }) {
   return (
     <ListWrapper>
       <ListHeader className="flex-between" style>
-        <Title>List Tokens</Title>
+        <Title>List of Tokens</Title>
         <Search handleChange={handleChange} value={value} setValue={setValue} />
       </ListHeader>
 
