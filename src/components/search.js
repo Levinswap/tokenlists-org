@@ -20,7 +20,7 @@ const StyledSearch = styled.form`
     outline: none;
 
     border: 0.5px solid #838383;
-    border-radius: 8px;
+    border-radius: 5px;
   }
   @media screen and (max-width: 414px) {
     width: 100%;

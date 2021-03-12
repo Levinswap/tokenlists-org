@@ -58,7 +58,7 @@ const AddButton = styled.button`
   margin-top: 1rem;
   padding: 1rem;
   background-color: transparent;
-  border-radius: 8px;
+  border-radius: 5px;
   outline: none;
   transition: 0.3s;
 

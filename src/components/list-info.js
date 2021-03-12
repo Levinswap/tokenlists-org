@@ -64,7 +64,7 @@ const Helper = styled.div`
   padding: 0.5rem;
   background-color: #d6fdff;
   color: rgba(0, 0, 0);
-  border-radius: 8px;
+  border-radius: 5px;
   font-size: 14px;
 `
 

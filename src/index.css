@@ -84,7 +84,7 @@ a {
 
 .button {
   background-color: #010101;
-  border-radius: 8px;
+  border-radius: 5px;
   width: fit-content;
   display: flex;
   align-items: center;

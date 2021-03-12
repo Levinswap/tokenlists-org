@@ -46,7 +46,7 @@ const Nav = styled.nav`
 const ButtonLink = styled.a`
   transition: box-shadow 0.25s ease, translate 0.25s ease;
   background-color: #463e53;
-  border-radius: 8px;
+  border-radius: 5px;
   width: fit-content;
   display: flex;
   align-items: center;
