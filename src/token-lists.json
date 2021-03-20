@@ -1,10 +1,26 @@
 {
-  "https://ipfs.io/ipfs/QmWgmoPRMPKV17FJbGtMfEQm5Cgfq8Wb69BXTN1TSfSP5i?filename=levinswap-default.tokenlist.json": {
+  "https://ipfs.io/ipfs/QmVjmLAgkWuNxHAE9Um9KuwEJmTEk82LzdEqLnfiZ5NQpR?filename=levinswap-default.tokenlist.json": {
     "name": "Levinswap Default List",
     "homepage": ""
   },
   "https://ipfs.io/ipfs/QmWrhnRTCQ8CgSoNmHV6WsneLLhErouD4fQPpSaqhsibpD?filename=levinswap-stablecoin-tokenlist.json": {
     "name": "Stablecoin Default List",
+    "homepage": ""
+  },
+  "https://api.realt.ch/v1/tokenList": {
+    "name": "RealT Default List",
+    "homepage": ""
+  },
+  "https://ipfs.io/ipfs/QmVfccE1JwFoXYD2KC3sMLjXNrCURXAUHQooogNrn3LZQf?filename=ren-default.tokenlist.json": {
+    "name": "Ren Default List",
+    "homepage": ""
+  },
+  "https://ipfs.io/ipfs/QmbZvrV7YsF6eKP8umoauqi7FFTG4KgtQBjTeLfVFJpxZj?filename=synthetix-default.tokenlist.json": {
+    "name": "Synthetix Default List",
+    "homepage": ""
+  },
+  "https://ipfs.io/ipfs/QmYvwfPEQetfva4oZbpJNGr2WFSvH54FbhR7ZwWoUKLyw2?filename=bsc-default.tokenlist.json": {
+    "name": "BSC Default List",
     "homepage": ""
   }
 }

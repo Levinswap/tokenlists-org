@@ -18,23 +18,23 @@ function Home() {
             <p className="title">Why tokens lists?</p>
 
             <p className="description" id="why-lists">
-              Token Lists aim to solve the problem of the Ethereum community creating, discovering and maintaining lists
+              Token Lists aim to solve the problem of the xDai community creating, discovering and maintaining lists
               of reputable tokens in a way that is inclusive, transparent, decentralized and open source.
             </p>
             <p>
-              As the Ethereum ecosystem continues to evolve and mature, we are continuing to see sustained exponential
+              As the xDai ecosystem continues to evolve and mature, we are continuing to see sustained exponential
               growth in the number of ERC-20 tokens being created and used by participants of the network.
             </p>
             <p>
               This is an exciting success of permissionless innovation enabled by the open nature of blockchain
-              networks. Ethereum continues to prove out to be the most attractive platform for innovative projects in
+              networks. xDai continues to prove out to be the most attractive platform for innovative projects in
               decentralized finance. This is not surprising because it has the best tooling and ecosystem, making it the
               best place for developers and entrepreneurs to build, as well as the most attractive place for users
               because of the diversity of products and rapidly improving tools.
             </p>
             <h2>The tradeoffs of permissionless innovation</h2>
             <p>
-              The permissionless nature of Ethereum and the ease of creating tokens also comes with tradeoffs. Since
+              The permissionless nature of xDai and the ease of creating tokens also comes with tradeoffs. Since
               there are no central gatekeepers, it becomes up to the users and projects in the space to establish trust
               and reputation, as well as perform actions of moderation. How can users tell credible projects from scams?
             </p>
