@@ -7,7 +7,7 @@
     "name": "Stablecoin Default List",
     "homepage": ""
   },
-  "https://api.realt.ch/v1/tokenList": {
+  "https://api.realt.community/v1/tokenList": {
     "name": "RealT Default List",
     "homepage": ""
   },
